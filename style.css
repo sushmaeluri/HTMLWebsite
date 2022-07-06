@@ -1,0 +1,48 @@
+
+
+
+    table ,td,th {
+        border: 2px black solid;
+        border-collapse: collapse;
+        width: 1800px; 
+        margin-top: 20px;
+        border-spacing: 40px; 
+    }
+    
+    .container {
+        display: grid; 
+        padding: 10px; 
+        width: 3000px; 
+        height: 200px;
+        grid-template-areas: "a b c ";
+                            
+     background-color:aqua; 
+        float: left;
+   
+
+    }
+  
+    .a {
+       
+        background-color: greenyellow;
+        width: 100px;
+        height: 100px;
+      
+     }
+    
+    .b{
+        
+        background-color: greenyellow;
+        width: 100px;
+       height: 100px;
+    }
+    
+    
+    .c{
+       
+        background-color: greenyellow; 
+        width: 100px;
+       height: 100px;
+    }
+    
+    
